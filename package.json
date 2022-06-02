@@ -12,9 +12,11 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "clarifai": "^2.9.1",
+    "colorette": "^2.0.16",
+    "commander": "^9.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "knex": "^1.0.1",
+    "knex": "^1.0.7",
     "pg": "^8.7.1"
   },
   "devDependencies": {
