@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^1.0.7",
-    "pg": "^8.7.1",
-    "nodemon": "^2.0.14"
+    "pg": "^8.7.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
