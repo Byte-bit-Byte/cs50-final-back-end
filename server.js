@@ -9,26 +9,34 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+
 const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-      rejectUnauthorized: false
-    }
+    host : '127.0.0.1',
+    port : 5432,
+    user : 'postgres',
+    password : 'test',
+    database : 'postgres'
   }
 });
 
-  // connectionString: process.env.DATABASE_URL,
-  // ssl: {
-  //   rejectUnauthorized: false
-  // }
 
-  // connection: {
-  //   host : process.env.DATABASE_URL,
-  //   ssl : true
-  // }
+
+
+
+// Copied this for deployment later, currently developing back end api
+// const db = knex({
+//   // connect to your own database here:
+//   client: 'pg',
+//   connection: {
+//     connectionString: process.env.DATABASE_URL,
+//     ssl: {
+//       rejectUnauthorized: false
+//     }
+//   }
+// });
 
 const app = express();
 
@@ -42,7 +50,8 @@ app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
 app.put('/image', (req, res) => { image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => { image.handleApiCall(req, res)})
 
-const PORT = process.env.PORT;
+const PORT = 3001;
+// const PORT = process.env.PORT;
 
 app.listen(PORT || 3000, ()=> {
   console.log(`app is running on port ${PORT}`);
