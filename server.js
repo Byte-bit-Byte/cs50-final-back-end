@@ -8,6 +8,7 @@ const register = require('./controllers/register');
 const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
+// const initDB = require('./controllers/initDB');
 
 
 const db = knex({
@@ -23,8 +24,22 @@ const db = knex({
 });
 
 
+const fs = require('fs');
+let test = "1";
 
+// fs.readFile('data.json', (err, data) => {
+//     if (err) throw err;
+//     let weeks = JSON.parse(data);
+//     console.log(weeks[test]);
+// });
 
+let data = fs.readFileSync('data.json');
+let test2 = JSON.parse(data);
+console.log(test2);
+
+// console.log('This is after the read call');
+
+// initDB.initializeDatabase(db, test);
 
 // Copied this for deployment later, currently developing back end api
 // const db = knex({
@@ -50,6 +65,12 @@ app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcry
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
 app.put('/image', (req, res) => { image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => { image.handleApiCall(req, res)})
+app.get('/weekData/:id', (req, res) => {
+  const { id } = req.params;
+  console.log(id);
+  res.json(test2[id]);
+})
+
 
 const PORT = 3001;
 // const PORT = process.env.PORT;

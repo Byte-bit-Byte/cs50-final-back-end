@@ -1,0 +1,74 @@
+{
+	"0":{
+		"name": "Week 0 — Scratch",
+		"binary": "| 0100 1000 | 0100 1001 | 0010 0000 | 0100 1101 | 0100 1111 | 0100 1101 | 0000 0000 | 0000 0000|",
+		"english": "|H|I| |M|O|M|||",
+		"comment": "Just an intro message for the course in the fun mood of scratch."		
+	},
+	"1":{
+		"name": "Week 1 — C",
+		"binary": "| 0100 0011 | 0100 1111 | 0101 0010 | 0101 0010 | 0100 0101 | 0100 0011 | 0101 0100 | 0000 0000|",
+		"english": " |C|O|R|R|E|C|T||",
+		"comment": "The idea of creating a correct program covered in the lecture."		
+	},
+	"2":{
+		"name": "Week 2 — Arrays",
+		"binary": "| 0000 0000 | 0101 0001 | 0101 0101 | 0100 0001 | 0100 0011 | 0100 1011 | 0000 0000 | 0000 0000|",
+		"english": "||Q|U|A|C|K|||",
+		"comment": "Duck debugging — explaining the steps of your program to your rubber duck partner."		
+	},
+	"3":{
+		"name": "Week 3 — Algorithm",
+		"binary": "| 0100 0100 | 0101 0000 | 0101 0011 | 0101 0011 | 0100 0110 | 0100 0100 | 0101 0101 | 0000 0000|",
+		"english": "|D|P|S|S|F|D|U||",
+		"comment": "You’ll have to figure out the reference after solving the code."		
+	},
+	"4":{
+		"name": "Week 4 — Memory",
+		"binary": "| 0100 0101 | 0100 1110 | 0100 1000 | 0100 0001 | 0100 1110 | 0100 0011 | 0100 0101 | 0000 0000|",
+		"english": "|E|N|H|A|N|C|E||",
+		"comment": "The joke of enhancing images like in crime and investigation shows mentioned in the lecture."		
+	},
+	"5":{
+		"name": "Week 5 — Data Structures",
+		"binary": "| 0101 0011 | 0100 0101 | 0100 0111 | 0100 0110 | 0100 0001 | 0101 0101 | 0100 1100 | 0101 0100|",
+		"english": "|S|E|G|F|A|U|L|T|",
+		"comment": "Segmentation Fault — when you try to read or write memory where you’re not supposed to."		
+	},
+	"6":{
+		"name": "Week 6 — Python",
+		"binary": "| 0110 1000 | 0110 0101 | 0110 1100 | 0110 1100 | 0110 1111 | 0010 1110 | 0111 0000 | 0111 1001|",
+		"english": "|h|e|l|l|o|.|p|y|",
+		"comment": "Probably your first python program if you had not written in python previously and took the course."		
+	},
+	"7":{
+		"name": "Week 7 — SQL",
+		"binary": "| 0100 0010 | 0100 1111 | 0100 1111 | 0100 1111 | 0100 1111 | 0100 1111 | 0100 1111 | 0100 1111|",
+		"english": "|B|O|O|O|O|O|O|O|",
+		"comment": "Halloween special message, I was so scared ;)"		
+	},
+	"7CS":{
+		"name": "Week 7 — Cybersecurity",
+		"binary": "| 0100 1000 | 0100 1001 | 0010 0000 | 0100 1101 | 0100 1111 | 0100 1101 | 0101 0011 | 0000 0000|",
+		"english": "|H|I| |M|O|M|S||",
+		"comment": "Variation of the message from week 0 but addressing the fact that there were parents in the audience."		
+	},
+	"8":{
+		"name": "Week 8 — HTML, CSS, JavaScript",
+		"binary": "| 0000 0000 | 0011 1100 | 0110 1000 | 0111 0100 | 0110 1101 | 0110 1100 | 0011 1110 | 0000 0000|",
+		"english": "||<|h|t|m|l|>||",
+		"comment": "open html tag that is found at the start of properly written html documents."		
+	},
+	"9":{
+		"name": "Week 9 — Flask",
+		"binary": "| 0011 1100 | 0010 1111 | 0110 1000 | 0111 0100 | 0110 1101 | 0110 1100 | 0011 1110 | 0000 0000|",
+		"english": " |<|/|h|t|m|l|>||",
+		"comment": "Close html tag, nice reference to previous week to remind us to always close any html tags we open."		
+	},
+	"10":{
+		"name": "Week 10 — Emoji",
+		"binary": "| 0000 0000 | 0000 0000 | 1110 0010 1001 1101 1010 0100 | 0000 0000 | 0000 0000 | 0000 0000|",
+		"english": "|||❤||||",
+		"comment": "With Love from CS50"		
+	}
+}
